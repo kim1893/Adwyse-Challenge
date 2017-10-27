@@ -33,8 +33,8 @@ const assert = require('chai').assert;
 const test = require('../problem1');
 
 describe('Testing problem1: isNumber()', function() {
-  it('Should return false for number', function() {
-    assert.equal(test.isNumber(1), false);
+  it('Should return true for number', function() {
+    assert.equal(test.isNumber(1), true);
   });
   it('Should return false for non-number', function() {
     assert.equal(test.isNumber('1'), false);
